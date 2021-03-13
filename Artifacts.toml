@@ -1,97 +1,99 @@
 [[Gnuastro]]
 arch = "aarch64"
-git-tree-sha1 = "5fc787cb99f32503c965f0c24be8ddff4aa61e93"
-libc = "musl"
-os = "linux"
-
-    [[Gnuastro.download]]
-    sha256 = "41ab589924c2b54e4b0892f83ce81a5b8c5ba840f3cc5350fc87444e23260deb"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.aarch64-linux-musl.tar.gz"
-[[Gnuastro]]
-arch = "x86_64"
-git-tree-sha1 = "2628e9b1aeeeffe5cea70f7a99c829406f3201bf"
-libc = "musl"
-os = "linux"
-
-    [[Gnuastro.download]]
-    sha256 = "c617af51296ffea0a4e4da60299852958f916334f302f489f6f330fde57d443a"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.x86_64-linux-musl.tar.gz"
-[[Gnuastro]]
-arch = "i686"
-git-tree-sha1 = "dd01d5591b10abf0f8e472e92d1f52525eaa72fc"
+git-tree-sha1 = "219bac37ee9bd3751005d7c4fe5aabd48e05441d"
 libc = "glibc"
 os = "linux"
 
     [[Gnuastro.download]]
-    sha256 = "c49764ea2631968afaed829be878a8c64f7a565ea275fedec798629fc95bd832"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.i686-linux-gnu.tar.gz"
-[[Gnuastro]]
-arch = "armv7l"
-git-tree-sha1 = "fa42940a7e0aa05db1bfdae8792fe42fc61129e1"
-libc = "glibc"
-os = "linux"
-
-    [[Gnuastro.download]]
-    sha256 = "545a59cf352290c9b9e4759b74b7200a4b4ef329754edf9ac0228421395f9672"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "745537f98309f004748bdc01d569a631298a162d07918236a4bab15b5bd8b927"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.aarch64-linux-gnu.tar.gz"
 [[Gnuastro]]
 arch = "aarch64"
-git-tree-sha1 = "fc3eab3ec985399babd345830c7b027dee858894"
-libc = "glibc"
+git-tree-sha1 = "82d99c0bfb8658d928ea7b26b855590ebc517f28"
+libc = "musl"
 os = "linux"
 
     [[Gnuastro.download]]
-    sha256 = "d3953dc7a3eb2dca1b8c0ced0062f29d711bb11dd10004f7433dafb99b5dd0c1"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "4d4f89e1783bb9730920985861253f368e29e5840e4f7d72d02f106b74daf102"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.aarch64-linux-musl.tar.gz"
 [[Gnuastro]]
-arch = "x86_64"
-git-tree-sha1 = "dab870dd45004b75afe8cc317bd2bb2370d9ece2"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f868843f397ea6cbfc03a51cbdcae735dfa39daf"
 libc = "glibc"
 os = "linux"
 
     [[Gnuastro.download]]
-    sha256 = "b9a21e221174a1320b9958e3cfaaaefb77f25b8a3cf80886917b802a30a1f0a0"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "a97c44660db411ff6e6401c15373cd58665cfe70e51b1b83a9013240c956e2e1"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.armv7l-linux-gnueabihf.tar.gz"
+[[Gnuastro]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "331a0c43dd2a4ee2debf4f775dc51ad0a7abc962"
+libc = "musl"
+os = "linux"
+
+    [[Gnuastro.download]]
+    sha256 = "c99f72d473efdea257213ead91d71b64823123a99f2420b56613dca98dcb362c"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.armv7l-linux-musleabihf.tar.gz"
+[[Gnuastro]]
+arch = "i686"
+git-tree-sha1 = "7965e19a3f1480fd943c513cd8f4568184deb301"
+libc = "glibc"
+os = "linux"
+
+    [[Gnuastro.download]]
+    sha256 = "44100072c7632f8a0c70cb0e244c97f5bdb0bc6063e2d11f87b546c9eecc74b1"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.i686-linux-gnu.tar.gz"
+[[Gnuastro]]
+arch = "i686"
+git-tree-sha1 = "b16a8a1378fba0b0e2033053685a487335d21685"
+libc = "musl"
+os = "linux"
+
+    [[Gnuastro.download]]
+    sha256 = "650e24050a4358ea7f9a1acc2cbbd2f59b91ddaa0eea48c931f842cc7f5459b5"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.i686-linux-musl.tar.gz"
 [[Gnuastro]]
 arch = "powerpc64le"
-git-tree-sha1 = "56ce99e1bb3b88f687be9cadab7e49f163112f26"
+git-tree-sha1 = "d88a552c4e6f88191169b448b41f991dd620f9c3"
 libc = "glibc"
 os = "linux"
 
     [[Gnuastro.download]]
-    sha256 = "973af4abee083086bb790645e3ab5bf175ed91798c5428d73d18028d58aa91cd"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "db4544a7b68cb597b8ceed7a8d8670833be59b25415565192607b0046bd1e463"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.powerpc64le-linux-gnu.tar.gz"
 [[Gnuastro]]
 arch = "x86_64"
-git-tree-sha1 = "db88ef54d0bf4716d8602bd9b786607c5a43546a"
+git-tree-sha1 = "91588d45b6f90bed9ef08b07b9ecc4096822d1ce"
 os = "macos"
 
     [[Gnuastro.download]]
-    sha256 = "aa5ce0406feb4858abb7d46d3bd743830586ed9d5be490a38bbad1a1957474a5"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "0d183beaddeda0de7c39740b0e072976ed8224b5bef28d5d89ed0bd2307d835b"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.x86_64-apple-darwin.tar.gz"
 [[Gnuastro]]
 arch = "x86_64"
-git-tree-sha1 = "7e0d7e433a1d9dd6effbe30cce8a9089b82135c8"
+git-tree-sha1 = "b9dfd298d9ef9fed5efa7a8db7dcfb7bc45ef84e"
+libc = "glibc"
+os = "linux"
+
+    [[Gnuastro.download]]
+    sha256 = "639b52ea8f225a5c619e8304808d6162bdbef9f893323db3414cbf5842ccc40d"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.x86_64-linux-gnu.tar.gz"
+[[Gnuastro]]
+arch = "x86_64"
+git-tree-sha1 = "f65aff5bafa5af85c3ed64259f149c79f7a6c7b3"
+libc = "musl"
+os = "linux"
+
+    [[Gnuastro.download]]
+    sha256 = "45ec1df228d04cac29e78ed5144dced37d17f7cda267205fda8e95d12f639121"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.x86_64-linux-musl.tar.gz"
+[[Gnuastro]]
+arch = "x86_64"
+git-tree-sha1 = "92d83e2ad55f432d5010bd8c8afba1e50d0434e9"
 os = "freebsd"
 
     [[Gnuastro.download]]
-    sha256 = "972b229f1062b85aa6f1bbf0199f79e3fa5134ed4b256d2f5c891af13340b665"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[Gnuastro]]
-arch = "i686"
-git-tree-sha1 = "e22e99f3614ccfe70ad192ef851d7f388cf4e6cb"
-libc = "musl"
-os = "linux"
-
-    [[Gnuastro.download]]
-    sha256 = "6a07e73a9a377dffe53e19fc608d6f377898a2818dd62f3ad59f2bbec1089acd"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.i686-linux-musl.tar.gz"
-[[Gnuastro]]
-arch = "armv7l"
-git-tree-sha1 = "17a55f221071799e763dc02ca8d7408acac0343b"
-libc = "musl"
-os = "linux"
-
-    [[Gnuastro.download]]
-    sha256 = "d20d2dc70005fd34b2f614996e98f08b7f70b5e04681fbfa8c4b13f10ebfdebf"
-    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.11.0+0/Gnuastro.v0.11.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "811e92c5dd49cf4d66c2cc19c1a2a96331de6375941432b841ffa50f547c19e7"
+    url = "https://github.com/JuliaBinaryWrappers/Gnuastro_jll.jl/releases/download/Gnuastro-v0.14.0+0/Gnuastro.v0.14.0.x86_64-unknown-freebsd.tar.gz"
